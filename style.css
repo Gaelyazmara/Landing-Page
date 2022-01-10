@@ -39,7 +39,7 @@ a {
 }
 .Hero {
     background-color:#1f2937 ;
-    padding: 100px 200px;
+    padding: 75px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -118,13 +118,39 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
+    height: 250px;
     font-size: 18px;
 }
 .Bluebox {
-    display: flex;
+    width: 80%;
     border-radius: 15px;
-    padding: 30px;
+    padding: 25px;
     background-color: #3882f6;
     color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+
+.action {
+    font-size: 25px;
+    font-weight: bolds;
+}
+.Singup {
+ 
+     padding: 10px 20px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: #f9faf8 solid 2px;
+    border-radius: 10px;
+  
+}
+.Footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
 }
